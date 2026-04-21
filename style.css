@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calc-body{
+    border: 2px solid black;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    background-color: black;
+}
+
+.display-Eq{
+    border: 2px solid black;
+    border-bottom: 2px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items:start;
+    padding: 5px;
+    background-color: black;
+    color:white;
+}
+
+.display-Ans{
+    border: 2px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding: 5px;
+    background-color: black;
+    color:white;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+    gap: 10px;
+    padding: 10px;
+    background-color: hsla(0, 1%, 14%, 100);
+}
+
+.keys button{
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+    background-color: hsla(0, 2%, 28%, 0.7);
+    cursor: pointer;
+    color: white;
+}
+
+.keys button:hover{
+    background-color: hsla(0, 2%, 28%, 100);
+}
+
+.orange{
+    background-color: rgba(99, 207, 16, 0.8) !important;
+}
+
+.orange:hover{
+    background-color: rgba(99, 207, 16, 100) !important;
+}
+
+.item-1{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.item-2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Calculator</title>
+</head>
+<body>
+    
+    <div class="calc-body">
+        
+        <div class="display-Eq">Equation</div>
+        <div class="display-Ans">0</div>
+
+        <div class="keys">
+            <button onclick="clearDisplay()" class="item-1 orange">AC</button>
+            <button onclick="backspace()" class="item-2">&leftarrow;</button>
+            <button onclick="appendDisplay('+') " class="orange">+</button>
+            <button onclick="appendDisplay('9')">9</button>
+            <button onclick="appendDisplay('8')">8</button>
+            <button onclick="appendDisplay('7')">7</button>
+            <button onclick="appendDisplay('-')" class="orange">-</button>
+            <button onclick="appendDisplay('6')">6</button>
+            <button onclick="appendDisplay('5')">5</button>
+            <button onclick="appendDisplay('4')">4</button>
+            <button onclick="appendDisplay('*')" class="orange">*</button>
+            <button onclick="appendDisplay('3')">3</button>
+            <button onclick="appendDisplay('2')">2</button>
+            <button onclick="appendDisplay('1')">1</button>
+            <button onclick="appendDisplay('/')" class="orange">/</button>
+            <button onclick="Calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
